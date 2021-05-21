@@ -1,0 +1,9 @@
+npm i express
+npm i body-parser
+npm i mongoose
+npm i bcrypt
+npm i dotenv
+npm i jsonwebtoken
+npm i @hapi/joi
+npm i -g nodemon
+npm i cors
