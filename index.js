@@ -20,7 +20,7 @@ const authorized = require('./middleware/validate-token')
 app.use ('/api/user', require('./routes/auth'))
 
 // Cualquier ruta para el auth
-app.use ('/api/dashboard', authorized, require('./routes/auth'))
+app.use ('/api/dashboard', authorized, require('./routes/dashboard'))
 
 const PORT = process.env.PORT || 3000
 app.listen(PORT, () => {
